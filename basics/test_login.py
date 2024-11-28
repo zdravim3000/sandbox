@@ -12,6 +12,7 @@ chrome_options.add_argument("--disable-dev-shm-usage")
 # Path to your ChromeDriver
 chromedriver_path = "/usr/bin/chromedriver"  # Update with the correct path
 
+
 def test_prd():
     try:
         # Set up the WebDriver
